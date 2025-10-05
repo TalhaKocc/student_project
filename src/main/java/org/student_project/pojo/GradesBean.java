@@ -9,9 +9,9 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class StudentBean {
+public class GradesBean {
     private int id;
-    private String name;
-    private String surname;
-    private String no;
+    private StudentBean student;
+    private CoursesBean courses;
+    private double grade;
 }
